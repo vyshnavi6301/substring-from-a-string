@@ -1,0 +1,22 @@
+# Example string
+s = "Hello, World!"
+
+# Get substring from index 1 to index 5 (exclusive)
+substring1 = s[1:5]
+print("Substring 1:", substring1)
+
+# Get substring from index 7 to the end of the string
+substring2 = s[7:]
+print("Substring 2:", substring2)
+
+# Get substring from the start of the string to index 5 (exclusive)
+substring3 = s[:5]
+print("Substring 3:", substring3)
+
+# Get the whole string (a copy of the original string)
+substring4 = s[:]
+print("Substring 4:", substring4)
+
+# Get substring from index -6 to index -1 (exclusive)
+substring5 = s[-6:-1]
+print("Substring 5:", substring5)
